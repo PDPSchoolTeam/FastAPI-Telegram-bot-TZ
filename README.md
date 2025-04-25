@@ -61,7 +61,7 @@ Aks holda `400 Bad Request` qaytariladi.
 ```
 ### 🗃️ Ma'lumotlar bazasi modeli (ORM)
 
-Jadval: users
+Jadval: `users`
 Maydon nomi	Tipi	Tavsif
 - id	int (PK)	Avtoinkrement ID
 - telegram_id	bigint	Telegram foydalanuvchi ID
@@ -69,7 +69,7 @@ Maydon nomi	Tipi	Tavsif
 - verification_code	string	6 xonali kod
 - expires_at	datetime	Kodning tugash vaqti
 - is_verified	boolean	Foydalanuvchi tasdiqlanganmi
-- 
+  
 ### ✅ Foydalanish Senariylari
 📲 1. Telegramdan boshlash
 
