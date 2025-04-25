@@ -118,4 +118,4 @@ python-dotenv
 - ✅ To‘g‘ri telefon raqam va Telegram ID bilan ro‘yxatdan o‘tish
 - ✅ 1 daqiqa ichida kodni yuborib tasdiqlash
 - ❌ Eskirgan yoki noto‘g‘ri kod yuborish
-- ❌ Allaqachon is_verified=True bo‘lgan foydalanuvchini takror tasdiqlash
+- ❌ Allaqachon `is_verified=True` bo‘lgan foydalanuvchini takror tasdiqlash
