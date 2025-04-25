@@ -47,22 +47,21 @@ Kiritilgan `verification_code` va `telegram_id` ma'lumotlari bazadagi foydalanuv
 Agar kod to‘g‘ri va 1 daqiqa ichida yuborilgan bo‘lsa, `is_verified=True` bo‘ladi.
 Aks holda `400 Bad Request` qaytariladi.
 
+### Response (success):
 ```
-Response (success):
 {
   "message": "User successfully verified"
 }
 ```
-Response (error):
+### Response (error):
 ```
 {
   "detail": "Invalid or expired code"
 }
 ```
-🗃️ Ma'lumotlar bazasi modeli (ORM)
+### 🗃️ Ma'lumotlar bazasi modeli (ORM)
 
 Jadval: users
-
 Maydon nomi	Tipi	Tavsif
 - id	int (PK)	Avtoinkrement ID
 - telegram_id	bigint	Telegram foydalanuvchi ID
